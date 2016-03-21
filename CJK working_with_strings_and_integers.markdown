@@ -58,9 +58,12 @@ d = 98
 ```
 
 1. Write code to find the average of these four numbers.
+    - ```(a+b+c+d)/4```
 2. Find the average yourself using paper or a calculator. Is your answer different than you found in A? Why?
+    - Using a calculator, I found the answer to  be 51.5 which is different because A did not include the decimal.
 3. Say you have the operation `a + b * c / d`. What result do you get out from Ruby? What other outputs can you
 get out by adding one or more pairs of parentheses to the equation?
+    - 32.  Ruby follows the order of operations.  ```(a+b)*c/d``` is 24.  ```(a+b)*(c/d)``` is also 24.
 
 ## Strings & Integers
 
