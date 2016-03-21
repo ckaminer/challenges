@@ -25,6 +25,10 @@ Use *only* the "string concatenation" technique to complete the following:
     - ```l + " " + f + " " + l + " " + f```
 
 Then repeat 1-4 using only the "string interpolation" technique.
+1. ```"#{f + l}"```
+2. ```"#{l + f}"```
+3. ```"#{f + " " + l}"```
+4. ```"#{l + " " + f + " " + l + " " + f}"```
 
 ### 2. Names
 
