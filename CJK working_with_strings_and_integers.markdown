@@ -93,6 +93,11 @@ four we'd say "Happy happy happy happy birthday!" Note the capitalization.
 
 Say you have an `age` variable that holds the person's age. Write code to output the appropriate greeting.
 
+```ruby
+    age = 24
+    greeting = "Happy #{"happy " * (age-1)} birthday!"
+```
+
 ### String Compression
 
 There's a silly compression algorithm that outputs the first letter, the number of letters in the middle,
