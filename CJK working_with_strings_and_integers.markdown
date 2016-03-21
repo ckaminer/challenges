@@ -80,11 +80,11 @@ d = "Grace"
 
 Write code to output both the total characters in all the names together and the average length of the names.
 
-    ```
+```ruby    
     combined = a+b+c+d
     combined.length
     (combined.length) / 4
-    ```
+```    
 
 ### Happy Birthday
 
