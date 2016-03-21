@@ -103,3 +103,8 @@ Say you have an `age` variable that holds the person's age. Write code to output
 There's a silly compression algorithm that outputs the first letter, the number of letters in the middle,
 and the last letter. So for the string `"Kalamazoo"` it'd output `"K7o"` or `"Denver"` would be `"D4r"`.
 Can you write code to implement that?
+
+```ruby
+    string = "Charlie"
+    compression = string[0]+string[1..-2].length.to_s+string[-1]
+```
