@@ -80,6 +80,12 @@ d = "Grace"
 
 Write code to output both the total characters in all the names together and the average length of the names.
 
+    ```
+    combined = a+b+c+d
+    combined.length
+    (combined.length) / 4
+    ```
+
 ### Happy Birthday
 
 In our family we like to say "Happy" once for every year of your age when we say "Happy birthday!". So when you turn
