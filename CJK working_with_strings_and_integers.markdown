@@ -95,7 +95,7 @@ Say you have an `age` variable that holds the person's age. Write code to output
 
 ```ruby
     age = 24
-    greeting = "Happy #{"happy " * (age-1)} birthday!"
+    greeting = "Happy #{"happy " * (age-1)}birthday!"
 ```
 
 ### String Compression
