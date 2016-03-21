@@ -40,8 +40,11 @@ name_2 = "Todd Park"
 ```
 
 1. Can you come up with *two* ways to output just the fragment `"Megan"` from `name_1`?
+    - ```name_1.split[0]``` and ```name_1[0..4]```
 2. Would either of your techniques from A would work to output `"Todd"` from `name_2`? Why or why not?
+    - the first technique would work.  The second technique would need to be adjusted to ```name_2[0..3]``` since Todd is one letter shorter in length than Megan.
 3. Write code that can output the initials of `name_2`.
+    - ```name_2[0] + name_2[5]```
 
 ## Just Integers
 
