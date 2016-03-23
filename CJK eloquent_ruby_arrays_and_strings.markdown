@@ -34,17 +34,29 @@ name.last
 1. Create an array containing the strings "dog", "cat", "goat", and "capybara"
 2. Transform this array into a new array where each string is
 capitalized ("Dog", "Cat", "Goat", "Capybara")
+
+```
+task = %w{dog cat goat capybara}
+task_upper = task.map(&:capitalize)
+```
+
 3. Combine this collection of capitalized strings into a single
 string, with each element separated by a comma and a space
 ("Dog, Cat, Goat, Capybara")
+
+```
+task_one = task_upper.join(", ")
+```
 
 ### 3. Dangers of `!` Methods
 
 * Summarize in your own words the conventions around methods
 whose names end in a `!`
+  - Methods whose names end in a '!' are methods that change the actual collection as opposed to making and printing a modified copy of the collection.  A '!' signifies that if you were to recall the collection it would now appear with the modifications as opposed to the original version.
 * Describe in your own words the advantages and disadvantages
 of these methods. When would you want to use one and when
 would you want to avoid using one.
+  - An advantage of these methods is that the change being made is permanent so you do not need to create a new variable. A disadvantage is the opposite, you may want to call on the orginal collection later on in the code or want to create a modified version to compare to the original.  If you use a '!' method, you will not be able to do this.  You might want to use this method if you need a collection to be sorted before running through a program or if there are formatting fixes that need to be made.  You would want to avoid using this in a scenario where you may only need part of the collection for certain pieces of the code but will need the whole thing later.  Any time you will need to go back to the original you should avoid these methods and instead opt to create a new variable with the modifications.
 
 ## Part 2: Taking Advantage of Ruby's Smart Strings
 
