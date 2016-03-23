@@ -68,8 +68,10 @@ challenges:
 ### 1. Special Characters in Strings
 
 * What does it mean to "escape" a character within a string?
+  - Escaping a character within a string is when you use a backslash to tell ruby that the following character has a different meaning that usual.
 * List 3 characters that have to be "escaped" when written
 in a string.
+  - quotes, n (new line), t (tab)
 * Use escape strings to generate a string containing your
 name and, on a separate line, your height in inches and feet.
 
@@ -78,6 +80,11 @@ For example, mine, when printed, would look like:
 ```
 Horace
 5'9"
+```
+
+```
+string = "Charles\n5'9\""
+print string
 ```
 
 ### 2. Splitting Strings
@@ -91,6 +98,9 @@ For example my example from above would generate:
 
 ```
 ["Horace", "5'9\""]
+```
+```
+string_split=string.split
 ```
 
 Don't forget that `split` takes an _optional_ argument specifying
@@ -112,4 +122,8 @@ For example, "Horace" translates to:
 
 ```ruby
 [72, 111, 114, 97, 99, 101]
+```
+```
+"Charles".each_byte{ |b| puts b}
+[67, 104, 97, 114, 108, 101, 115]
 ```
