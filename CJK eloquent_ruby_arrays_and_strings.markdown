@@ -23,6 +23,12 @@ third
 nil
 ```
 
+```
+name = ["Charles", "John", "Edward", "Kaminer"]
+name.first
+name.last
+```
+
 ### 2. Using Map and Join
 
 1. Create an array containing the strings "dog", "cat", "goat", and "capybara"
